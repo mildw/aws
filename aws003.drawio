@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T13:33:14.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.1.0" etag="RWjmwGlN2zSi985IOAvE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-24T13:40:42.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="lprXT_S-9TYHxdiAUjPj" version="24.1.0" type="github">
   <diagram name="페이지-1" id="UwLEJ7N5KuVZnpbL5-DU">
-    <mxGraphModel>
+    <mxGraphModel dx="1363" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-2" value="B기업" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="329" width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-3" value="C기업" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="329" width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WhA-7VrKzQ5JOr2e41_C-4" target="WhA-7VrKzQ5JOr2e41_C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-4" value="A기업" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="329" width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.055;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WhA-7VrKzQ5JOr2e41_C-4" target="WhA-7VrKzQ5JOr2e41_C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="WhA-7VrKzQ5JOr2e41_C-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="69" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
